@@ -1,0 +1,81 @@
+.bullet{
+
+
+    margin:0;
+
+    transition: 4s ease;
+
+
+}
+.content{
+    width: 100%;
+    border: 2px solid;
+    padding: 3px;
+    margin: 5px;
+    display: flex;
+    gap: 5px;
+    
+}
+
+
+   
+
+.item-1{
+    display: flex;
+    width: 25%;
+    height:300px;
+    border: 2px solid;
+    text-align: center;
+    background-color: black;
+    COLOR: RED;
+}
+.item-2{
+    width: 25%;
+    height:300px;
+    border: 2px solid;
+    text-align: center;
+    background-color: black;
+    COLOR: RED;
+    display: flex;
+}
+.item-3{
+    width: 25%;
+    height:300px;
+    border: 2px solid;
+    text-align: center;
+    background-color: black;
+    COLOR: RED;
+    display: flex;
+}
+.item-4{
+    width: 25%;
+    height:300px;
+    border: 2px solid;
+    text-align: center;
+    background-color: black;
+    COLOR: RED;
+    display: flex;
+}
+
+
+
+.item-1:hover ~ .bullet{
+    
+    transform: translate(100px, 100px);
+
+}
+.item-2:hover~.bullet{
+    transform: scale(2);
+}
+.item-3:hover ~ .bullet{
+    transform: skew(45deg);
+}
+.item-4:hover ~ .bullet{
+    transform: rotate(180deg);
+}
+
+   
+
+
+
+
